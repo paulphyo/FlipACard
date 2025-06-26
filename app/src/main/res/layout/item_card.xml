@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="100dp" android:layout_height="100dp"
+    android:id="@+id/cardContainer"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
     android:layout_margin="8dp">
 
+    <!-- Back of the card -->
     <ImageView
-        android:id="@+id/cardImage"
+        android:id="@+id/cardBack"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="centerCrop"/>
+        android:scaleType="centerCrop"
+        android:background="@drawable/card_back"
+        android:contentDescription="@string/card_back" />
+
+    <ImageView
+        android:id="@+id/cardFront"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        android:contentDescription="@string/card_front" />
+
 </FrameLayout>

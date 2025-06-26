@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">FlipACard</string>
     <string name="image">Image</string>
+    <string name="moves">Moves: %1$d</string>
+    <string name="pairs_found">Pairs found: %1$d / %2$d</string>
+    <string name="time">Time: %1$ds</string>
+    <string name="restart">Restart</string>
+    <string name="status_find_pairs">Find all the pairs!</string>
+    <string name="card_back">Back Of Card</string>
+    <string name="card_front">Front Of Card</string>
 </resources>
